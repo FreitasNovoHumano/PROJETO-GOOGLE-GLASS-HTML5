@@ -1,0 +1,30 @@
+nav#menu {
+	display: block; /*faz menu flutuar*/
+}
+
+nav#menu ul {
+	list-style: none;
+	text-transform: uppercase; /* deixa em maiuscula*/
+	position:fixed;
+	top: -5px;
+	left: 10px;
+
+}
+nav#menu li {
+	display: inline-block;
+	background-color: #dddddd; /* sbreado no botão menu*/
+	padding: 10px; /* tamanho dos botonhes*/
+	margin: 2px; /* distancia entre um botão e outro*/
+    transition: background-color 1s;
+
+}
+nav#menu li:hover{
+    transition-duration: 1s;
+}
+nav#menu h1 {
+	display: none; /*esconde a palavra menu principal */
+}
+p {
+	text-align: justify-all;
+	text-indent: 50px;
+}
