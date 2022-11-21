@@ -1,0 +1,97 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box; 
+}
+
+/*Formatação do Menu*/
+
+nav#menu {
+  display: block; /*faz menu flutuar*/
+}
+
+nav#menu ul {
+  list-style: none;
+  text-transform: uppercase; /* deixa em maiuscula*/
+  position: absolute;
+  top: -1px;
+  left: 600px;
+}
+nav#menu li {
+  display: inline-block; /* faz o bloco ser exibido em uma mesma linha */
+  background-color: #dddddd; /* sbreado no bot�o menu*/
+  padding: 10px; /* Controla espaço dentro do objeto, tamanho dos botonhes*/
+  margin: 2px; /* distancia entre um bot�o e outro*/
+  transition: background-color 2s; /* tempo para o botão mudar de cor */
+}
+nav#menu li:hover {
+  /*efeito ao passar o mouse por cima do botão */
+  transition-duration: 2s;
+}
+nav#menu h1 {
+  display: none; /*esconde a palavra menu principal */
+}
+nav#menu a {
+  /* configura todos os objetos que tem link ancora a */
+  color: #000000;
+  text-decoration: none;
+}
+nav#menu a:hover {
+  color: #ffffff;
+  text-decoration: underline; /* sublinha o link ao passar o mouse por cima */
+}
+
+p {
+  text-align: justify-all;
+  text-indent: 50px;
+}
+
+a {
+  /*formatação para todo tipo de link */
+  color: blue;
+  text-decoration: none;
+}
+
+A:hover {
+  /* sublinha o link ao passar o propusor do mouse */
+  text-decoration: underline;
+}
+
+div#interface {
+	width: 100%; /* delimita a largura */
+	background-color: #ffffff; /* cor de fundo */
+	margin: 0px auto 0px auto; /* espaço externo do objeto */
+	box-shadow: 0px 0px 10px rgba(0,0,0,.5); /* sombra nas margens */
+	padding:85px; /* espaço interno do objeto */
+}
+
+header#cabecalho img#icone {
+	position: absolute;
+	left:1100px;
+	top:50px;
+}
+
+header#cabecalho {
+	border-bottom:2px #606060 solid; /*linha que separa o cabe�alho */
+	height: 160px; /* altura do cabe�alho */
+	background: url("_imagens/glass-logo-peq.jpg") no-repeat 10px 100px; /*logomarca no cabe�alho e deslocamento horizontal e vertical */
+}
+
+header#cabecalho h1 {
+	font-family: 'FonteLogo', sans-serif;
+	font-size: 30px;
+	color: #606060;
+	text-shadow: 1px 1px 1px rgba(0,0,0, .6);
+	padding: 0px;
+	margin-top: -80px;
+}
+
+header#cabecalho h2 {
+	font-family: Arial, sans-serif;
+	color: #888888:
+	font-size: 15pt;
+	padding: 0px;
+	margin-top: 10px;
+}
