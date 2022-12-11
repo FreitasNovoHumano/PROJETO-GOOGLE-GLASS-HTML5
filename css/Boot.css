@@ -1,9 +1,9 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box; 
+  -webkit-box-sizing: border-box;
 }
 
 /*Formatação do Menu*/
@@ -60,38 +60,38 @@ A:hover {
 }
 
 div#interface {
-	width: 100%; /* delimita a largura */
-	background-color: #ffffff; /* cor de fundo */
-	margin: 0px auto 0px auto; /* espaço externo do objeto */
-	box-shadow: 0px 0px 10px rgba(0,0,0,.5); /* sombra nas margens */
-	padding:85px; /* espaço interno do objeto */
+  width: 100%; /* delimita a largura */
+  background-color: #ffffff; /* cor de fundo */
+  margin: 0px auto 0px auto; /* espaço externo do objeto */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* sombra nas margens */
+  padding: 85px; /* espaço interno do objeto */
 }
 
 header#cabecalho img#icone {
-	position: absolute;
-	left:1100px;
-	top:50px;
+  position: absolute;
+  left: 1100px;
+  top: 50px;
 }
 
 header#cabecalho {
-	border-bottom:2px #606060 solid; /*linha que separa o cabe�alho */
-	height: 160px; /* altura do cabe�alho */
-	background: url("_imagens/glass-logo-peq.jpg") no-repeat 10px 100px; /*logomarca no cabe�alho e deslocamento horizontal e vertical */
+  border-bottom: 2px #606060 solid; /*linha que separa o cabe�alho */
+  height: 160px; /* altura do cabe�alho */
+  background: url("../imagens/glass-logo-peq.jpg") no-repeat 10px 100px; /*logomarca no cabe�alho e deslocamento horizontal e vertical */
 }
 
 header#cabecalho h1 {
-	font-family: 'FonteLogo', sans-serif;
-	font-size: 30px;
-	color: #606060;
-	text-shadow: 1px 1px 1px rgba(0,0,0, .6);
-	padding: 0px;
-	margin-top: -80px;
+  font-family: "FonteLogo", sans-serif;
+  font-size: 30px;
+  color: #606060;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+  padding: 0px;
+  margin-top: -80px;
 }
 
 header#cabecalho h2 {
-	font-family: Arial, sans-serif;
-	color: #888888:
-	font-size: 15pt;
-	padding: 0px;
-	margin-top: 10px;
+  font-family: Arial, sans-serif;
+  color: #888888;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+  padding: 10px;
+  marging-top: 10px;
 }

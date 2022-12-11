@@ -1,102 +1,100 @@
 @font-face {
-	font-family: 'FonteLogo';
-	src: url("../_fonts/bubblegum-sans-regurar.otf");
+  font-family: "FonteLogo";
+  src: url("../_fonts/bubblegum-sans-regurar.otf");
 }
 div#interface {
-	width:1150px;
-	background-color:#ffffff;
-	margin:10px auto 10px auto;
-	box-shadow:0px 0px 10px rgba(0,0,0,.5);
-	padding:85px;
+  width: 1150px;
+  background-color: #ffffff;
+  margin: 10px auto 10px auto;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  padding: 85px;
 }
 header#cabecalho img#icone {
-	position:absolute;
-	left:1100px;
-	top:50px;
+  position: absolute;
+  left: 1100px;
+  top: 50px;
 }
 header#cabecalho {
-	border-bottom: 2px #606060 solid;
-	height: 160px;
-	backfround: url("_imagens/glass-logo-peq.jpg") no-repeat 10px 100px;
+  border-bottom: 2px #606060 solid;
+  height: 160px;
+  backfround: url("../imagens/glass-logo-peq.jpg") no-repeat 10px 100px;
 }
 
 header#cabecalho h1 {
-	font-family:'FonteLogo', sans-serif;
-	font-size:30px;
-	color: #606060;
-	text-shadow:1px 1px 1px rgba(0,0,0,.6);
-	padding:0px;
-	margin-top:-80px;
+  font-family: "FonteLogo", sans-serif;
+  font-size: 30px;
+  color: #606060;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+  padding: 0px;
+  margin-top: -80px;
 }
 header#cabecalho h2 {
-	font-family: Arial, sans-serif;
-	color: #888888;
-	text-shadow: 1px 1px 1px rgba(0,0,0,.6);
-	padding:0px;
-	marging-top:10px;
+  font-family: Arial, sans-serif;
+  color: #888888;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+  padding: 0px;
+  marging-top: 10px;
 }
 nav#menu {
-	display: block; /*faz menu flutuar*/
+  display: block; /*faz menu flutuar*/
 }
 
 nav#menu ul {
-	list-style: none;
-	text-transform: uppercase; /* deixa em maiuscula*/
-	position:fixed;
-	top: -5px;
-	left: 600px;
-
+  list-style: none;
+  text-transform: uppercase; /* deixa em maiuscula*/
+  position: fixed;
+  top: -5px;
+  left: 600px;
 }
 nav#menu li {
-	display: inline-block;
-	background-color: #dddddd; /* sbreado no botão menu*/
-	padding: 10px; /* tamanho dos botonhes*/
-	margin: 2px; /* distancia entre um botão e outro*/
-    transition: background-color 1s;
-
+  display: inline-block;
+  background-color: #dddddd; /* sbreado no botï¿½o menu*/
+  padding: 10px; /* tamanho dos botonhes*/
+  margin: 2px; /* distancia entre um botï¿½o e outro*/
+  transition: background-color 1s;
 }
-nav#menu li:hover{
-    transition-duration: 1s;
+nav#menu li:hover {
+  transition-duration: 1s;
 }
 nav#menu h1 {
-	display: none; /*esconde a palavra menu principal */
+  display: none; /*esconde a palavra menu principal */
 }
 nav#menu a {
-	color: #000000;
-	text-decoration:none;
+  color: #000000;
+  text-decoration: none;
 }
-nav#menu a: hover {
-	color: #ffffff;
-	text-decoration: underline;
+nav#menua: hover {
+  color: #ffffff;
+  text-decoration: underline;
 }
 p {
-	text-align: justify-all;
-	text-indent: 50px;
+  text-align: justify-all;
+  text-indent: 50px;
 }
 div#tv-radio {
-	width: 900px;
-	height: 580px;
-	margin: auto;
-	background: url("../_imagens/radio-tv.png") no-repeat;
+  width: 900px;
+  height: 580px;
+  margin: auto;
+  background: url("../_imagens/radio-tv.png") no-repeat;
 }
 audio#musica {
-	display: block;
-	position: relative;
-	left: 575px;
-	top: 500px;
-	width: 300px;
+  display: block;
+  position: relative;
+  left: 575px;
+  top: 500px;
+  width: 300px;
 }
 video#filme {
-	display: block;
-	position: relative;
-	left: 87px;
-	top: 80px;
-	width: 440px;
+  display: block;
+  position: relative;
+  left: 87px;
+  top: 80px;
+  width: 440px;
 }
 footer#rodape {
-	clear: both;
-	border-top: 2px solid #606060;
+  clear: both;
+  border-top: 2px solid #606060;
 }
 footer#rodape {
-	text-align: center;
+  text-align: center;
 }
