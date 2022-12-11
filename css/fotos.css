@@ -3,7 +3,7 @@
   src: url("../_fonts/bubblegum-sans-regurar.otf");
 }
 ul#album-fotos {
-  width: 700px;
+  width: 100%;
   margin: 0px;
   padding: 50px;
   overflow: hidden;
